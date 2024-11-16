@@ -1,0 +1,14 @@
+cpi
+numpy
+numerize
+opencv-python
+Pillow
+pydub
+PyQt6
+requests
+torch
+sqlalchemy
+beautifulsoup4
+python-dotenv
+moviepy
+python-dateutil

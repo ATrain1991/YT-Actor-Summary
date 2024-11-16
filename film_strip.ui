@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>1920</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="Film">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1080</width>
+     <height>1920</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>icons/film strip2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Poster">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>144</y>
+     <width>770</width>
+     <height>1365</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>Leonardo DiCaprio/Catch_Me_if_You_Can.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TomatoMeterScore">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>1780</y>
+     <width>341</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rozha One</family>
+     <pointsize>125</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
+   </property>
+   <property name="text">
+    <string>98%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PopcornMeterScore">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>1790</y>
+     <width>341</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rozha One</family>
+     <pointsize>125</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
+   </property>
+   <property name="text">
+    <string>98%</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TomatoMeterIcon">
+   <property name="geometry">
+    <rect>
+     <x>156</x>
+     <y>1510</y>
+     <width>300</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>300</width>
+     <height>300</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>icons/FreshTomato.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="PopcornMeterIcon">
+   <property name="geometry">
+    <rect>
+     <x>626</x>
+     <y>1510</y>
+     <width>300</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <property name="baseSize">
+    <size>
+     <width>300</width>
+     <height>300</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>icons/FreshPopcorn(background).png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Box_Office">
+   <property name="geometry">
+    <rect>
+     <x>696</x>
+     <y>32</y>
+     <width>211</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rozha One</family>
+     <pointsize>45</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: gold;
+text-stroke: 2px black;</string>
+   </property>
+   <property name="text">
+    <string>$152.7M</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Year">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>211</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rozha One</family>
+     <pointsize>45</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: b;
+text-stroke: 2px black;</string>
+   </property>
+   <property name="text">
+    <string>1998</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
